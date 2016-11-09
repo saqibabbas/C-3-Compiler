@@ -1,0 +1,62 @@
+c3_Main_void proc
+t1=y
+t2=b*a
+t3=t2/2
+t4=a+t3
+t5=t4
+param t5
+t6= call abc , 1
+t7=a*b
+t8=t7<c
+if(t8==false) jmp l1
+t9=b
+a=t9
+jmp l2:
+l1:
+l2:
+c3_Main_void endp
+A_abc_num proc
+t10=c*b
+t11=b+t10
+t12=t11
+a=t12
+t13=b+c
+t14=a>t13
+t15=t14
+if(t15==false) jmp l3
+t16=b
+a=t16
+jmp l4:
+l3:
+t17=c
+a=t17
+l4:
+A_abc_num endp
+A_xyz_bignum_num proc
+t18=a
+param t18
+t19= call abc , 1
+t20=c*b
+t21=t20
+param t21
+t22= call abc , 1
+t23=c+t22
+a=t23
+l5:
+t24=a>1
+t25=t24
+if(t26==false) jmp l6
+t27=c
+a=t27
+jmp l5:
+l6:
+A_xyz_bignum_num endp
+t28=1
+i=t28
+second_one_void proc
+t29=i
+param t29
+t30= call two , 1
+second_one_void endp
+second_two_num proc
+second_two_num endp

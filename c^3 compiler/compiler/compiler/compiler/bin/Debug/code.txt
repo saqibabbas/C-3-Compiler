@@ -1,0 +1,18 @@
+﻿Main()
+{
+class abc xyz;
+}
+class abc
+{
+define darinda()
+{
+num i=0;
+repeatwhile(a<1)
+{
+}
+either(i<12)
+{}
+or{}
+}
+}
+

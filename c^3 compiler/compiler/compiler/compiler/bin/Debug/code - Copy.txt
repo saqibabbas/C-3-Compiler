@@ -1,0 +1,10 @@
+﻿void main()
+{
+char a+=55++=&&!=5
+integer ***="abc+=56\"+=6
+while(1<<<&&&!=5)
+{
+a='r'+'\n'+'abc'+=5
+return (//a=b=c)
+}
+}

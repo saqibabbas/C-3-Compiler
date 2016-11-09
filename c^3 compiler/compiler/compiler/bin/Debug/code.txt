@@ -1,0 +1,57 @@
+﻿Main()
+{
+
+num b;
+A y;
+num a;
+y.abc(a+b*a/2);
+num c;
+either(a*b<c)
+{
+a=b;
+}
+
+}
+
+Class A 
+{
+define num abc(num k)
+{
+a=b+c*b;
+either(a>b+c)
+{
+a=b;
+}
+or
+{
+a=c;
+}
+}
+
+define bignum xyz(bignum u,num i)
+{
+abc(a);
+
+
+a=c+abc(c*b);
+repeatwhile(a>1)
+{
+
+a=c;
+
+}
+}
+
+}
+class second
+{
+num i=1;
+define num one()
+{
+two(i);
+}
+define bignum two(num q)
+{
+
+}
+}

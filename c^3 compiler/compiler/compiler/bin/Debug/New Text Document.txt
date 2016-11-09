@@ -1,0 +1,35 @@
+        bool OE()
+        {
+            stack_opr.Clear();
+            if (AE())
+            {
+                if (OEx())
+                {
+                    while (stack_opr.Count > 1)
+                    {
+                        int ab = index;
+                        string leftOprand, rightOperand, Operator;
+                        leftOprand = stack_opr.Pop();
+                        Operator = stack_opr.Pop();
+                        rightOperand = stack_opr.Pop();
+                        string TypeReturn = compatiblity(leftOprand, rightOperand, Operator);
+                        if (TypeReturn == "Not Compatible")
+                        {
+                            return false;
+                        }
+                        else
+                        {
+                            stack_opr.Push(TypeReturn);
+                        }
+                        int a;
+                    }
+                    if (Is_func_ok)
+                    {
+                        return true;
+                    }
+                    return true;
+                }
+
+            }
+            return false;
+        }
